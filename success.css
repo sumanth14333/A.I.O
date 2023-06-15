@@ -183,3 +183,9 @@ p:hover{
         color: rgb(119, 49, 144);
     }
 }
+
+@media only screen and (max-width:786px){
+    *{
+        width:90%;
+    }
+}
