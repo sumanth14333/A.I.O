@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("bg13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: rgb(128, 128, 128, 0.7);
+}
+#title{
+    margin: auto;
+    font-size: 40px;
+   margin-left: 35%;
+   color: goldenrod;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#bar{
+    font-size: 30px;
+    float: right;
+    margin: auto;
+    margin-right: 55px;
+    font-size: 35px;
+}
+#bar a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 25px;  
+}
+#bar a:hover{
+    background-color: black;
+    border: 1.5px solid #fff;
+    border-radius: 50px;
+}
+img{
+    height: 225px;
+    width: 340px;
+    /* box-shadow: 2px 2px; */
+    border: 3px solid rgb(5, 20, 21, 0.7);
+}
+img:hover{
+    
+    border-color: rgb(224, 12, 12);
+    animation: image 1.5s infinite;
+}
+@keyframes image {
+    0%{
+        border-width: 5px;
+        border-color:rgb(2, 77, 52);
+        
+    }
+    20%{
+        border-width: 5px;
+        border-color:rgb(102, 91, 168);
+    }
+    40%{
+        border-width: 5px;
+        border-color: darkolivegreen;
+    }
+    60%{
+        border-width: 5px;
+        border-color: rgb(47, 91, 3);
+    }
+    80%{
+        border-width: 5px;
+        border-color: rgb(25, 2, 63);
+    }
+    100%{
+        border-width: 5px;
+        border-color: rgb(119, 49, 144);
+    }
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+#left{
+    display: flex;
+    justify-content: space-between;
+   
+}
+#right{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2%;
+}
+#left #top{
+    padding: 15px 15px 15px 20px;
+
+}
+#left #bottom{
+    padding: 15px;
+}
+#right #top{
+    padding: 15px;
+
+}
+#right #bottom{
+    padding: 15px 0px 15px 15px;
+}
+p{
+    margin-left: 30%;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: fit-content;
+    margin-bottom: 5px;
+    font-weight: 800;
+    color: goldenrod;
+}
+#right>#top> #r1 p{
+    margin-left: 25%;
+}
+p:hover{
+    background-color: rgb(5, 20, 21, 0.7);
+    animation: clrs 1s infinite;
+}
+@keyframes clrs {
+    0%{
+        color:aquamarine;
+    }
+    20%{
+        color:rgb(102, 91, 168);
+    }
+    40%{
+        color: darkolivegreen;
+    }
+    60%{
+        color: rgb(136, 225, 46);
+    }
+    80%{
+        color: teal;
+    }
+    100%{
+        color: rgb(119, 49, 144);
+    }
+}
+
+#s{
+    text-decoration: underline;
+}
+#s:hover{
+    animation: clr_title 1s infinite;
+}
+@keyframes clr_title {
+    0%{
+        color:aquamarine;
+    }
+    10%{
+        color:rgb(2, 77, 52);
+    }
+    20%{
+        color:rgb(102, 91, 168);
+    }
+    30%{
+        color: rgb(119, 49, 144);
+    }
+    40%{
+        color: darkolivegreen;
+    }
+    50%{
+        color:rgb(2, 77, 52);
+    }
+    60%{
+        color: rgb(136, 225, 46);
+    }
+    70%{
+        color: rgb(25, 2, 63);
+    }
+    80%{
+        color: teal;
+    }
+    90%{
+        color: goldenrod;
+    }
+    100%{
+        color: rgb(119, 49, 144);
+    }
+}

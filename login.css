@@ -1,0 +1,124 @@
+body{
+    background-image: url("bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body:hover:not(.login){
+    background-image: url("bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: changeimg 20s infinite;
+}
+@keyframes changeimg{
+    0%{
+        background-image: url("bg1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    10%{
+        background-image: url("bg2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    20%{
+        background-image: url("bg3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    30%{
+        background-image: url("bg4.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    40%{
+        background-image: url("bg5.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    50%{
+        background-image: url("bg6.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    60%{
+        background-image: url("bg7.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* 70%{
+        background-image: url("bg8.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    } */
+    80%{
+        background-image: url("bg9.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    90%{
+        background-image: url("bg10.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{
+        background-image: url("body-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+#bar{
+    font-size: 30px;
+    padding: 30px;
+    float: right;
+    margin-top: -15%;
+}
+#bar a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 25px;  
+}
+#bar a:hover{
+    background-color: black;
+    border: 1.5px solid #fff;
+    border-radius: 50px;
+}
+.login{  
+    margin: auto;
+    height: 300px;
+    width: 350px;
+    margin-top: 15%;
+
+}
+form{
+    height: 300px;
+    width: 350px;
+    border: 2px solid blue;
+    background-color: rgb(240, 248, 255, 0.6);
+    border-radius: 50px;
+}
+#form-ele1{
+    margin-top: 20%;
+    padding: 10px 30px;
+}
+#form-ele2{
+    padding: 10px 30px;
+}
+#submit{
+    width: fit-content;
+    margin: auto;
+    margin-top: 5%;
+}
+#btn{
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    font-size: x-large;
+}
+#btn:hover{
+    background-color: darkgrey;
+}
+
+label{
+    font-size: 25px;
+}
